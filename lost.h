@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-void die(){
+void die() {
   cout << "Gone but not forgotten.\n";
   cout << "R.I.P.\n";
   exit(1);
-  }
+}     //LOVE THIS -KM
   
   class node {
     //The int will be used in the puzzle function that will be called when the character moves
@@ -14,7 +14,7 @@ void die(){
     node* up = nullptr;
     node* down = nullptr;
     node* right = nullptr;
-    node* left = nullptr;
+    node* left = nullptr;       //WE MAY BE ABLE TO USE THE KEY CODE I PUT IN MAIN -KM
     
     public:
     node() {} //Does nothing constructor
@@ -24,11 +24,11 @@ void die(){
     the designed map. If it is, it returns true. If not, tells the user its out of bounds.
     */
     
-    bool check_move(node* direction){
+    bool check_move(node* direction) {
       bool check = false;
-      if(direction == nullptr) {
+      if(direction == nullptr) 
         cout << "Its just the woods. We cant go there.\n";
-      else { check = true; }
+      else check = true;
       return check;
     }
     
