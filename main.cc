@@ -10,6 +10,12 @@
 #include <set>
 #include "lost.h"
 using namespace std;
+
+const int UP = 65; //key codes for arrows
+const int DOWN = 66;
+const int LEFT = 68;
+const int RIGHT = 67;
+
 const int MAX_Y, MAX_X = 10;
 
 /*
