@@ -48,7 +48,7 @@ void die() {
           cout << "Moved up.\n";
         }
       }
-      if else (new_move == 'Z') {
+      if else (new_move == 'S') {
         go = check_move(temp->down);
         if(go == true) {
           temp = temp->down;
@@ -62,7 +62,7 @@ void die() {
           cout << "Moved left.\n";
         }
       }
-      if else (new_move == 'S') {
+      if else (new_move == 'D') {
         go = check_move(temp->up);
         if( go == true) {
           temp = temp->right;
